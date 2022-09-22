@@ -51,4 +51,4 @@ INSERT INTO public.todo(
 	  	'2022-09-23');
 		
 		
-		select * from public.todo where is_completed=true
+		select * from public.todo where categories=General
